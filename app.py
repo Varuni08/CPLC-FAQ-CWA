@@ -1,13 +1,9 @@
 import os
 import re
-import time
 import streamlit as st
 from pinecone import Pinecone
 from groq import Groq
 from sentence_transformers import SentenceTransformer
-from sentence_transformers import SentenceTransformer
-import numpy as np
-import pandas as pd
 
 st.set_page_config(
     page_title="CPLC FAQ Bot",
