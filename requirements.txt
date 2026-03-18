@@ -1,0 +1,9 @@
+streamlit
+pinecone-client
+groq
+sentence-transformers
+langchain-community
+langchain-text-splitters
+langchain-groq
+pypdf
+numpy
