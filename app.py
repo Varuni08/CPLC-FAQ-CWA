@@ -3,7 +3,6 @@ import re
 import time
 from tqdm import tqdm
 from pypdf import PdfReader
-from pinecone import Pinecone, ServerlessSpec
 from groq import Groq
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
