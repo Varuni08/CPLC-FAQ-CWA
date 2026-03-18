@@ -1,14 +1,13 @@
 import os
 import re
 import time
-from tqdm import tqdm
-from pypdf import PdfReader
+import streamlit as st
+from pinecone import Pinecone
 from groq import Groq
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from sentence_transformers import SentenceTransformer
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import pandas as pd
-from getpass import getpass
 
 st.set_page_config(
     page_title="CPLC FAQ Bot",
